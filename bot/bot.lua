@@ -221,8 +221,7 @@ function load_gbans( )
     print ("Created new gbans file: data/gbans.lua")
     create_gbans()
   else
-    f:close()
-  end
+    f:close()Sudo_users={@lord_amniat},--sudo users  end
   local gbans = loadfile ("./data/gbans.lua")()
   return gbans
 end
